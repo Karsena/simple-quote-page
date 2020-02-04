@@ -1,3 +1,5 @@
+/* Base Styles */
+
 html,
 body {
   margin: 0;
@@ -39,6 +41,8 @@ body {
   top: 35%;
   width: 90%;
 }
+
+/* Media Rules for Mobile Devices and Notebooks */
 
 @media (min-width: 320px) {
   
