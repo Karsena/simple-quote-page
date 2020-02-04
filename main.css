@@ -23,17 +23,45 @@ body {
 
 .quote {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: black;
   position: absolute;
-  left: 0;
-  top: 25%;
-  width: 100%;
+  top: 5%;
+  width: 90%;
 }
 
 .author {
   font-family: 'Crimson Text', serif;
   font-size: 2rem;
   font-style: italic;
-  color: black;
+  color: dimgrey;
+  position: absolute;
+  top: 35%;
+  width: 90%;
+}
+
+@media (min-width: 320px) {
+  
+  .quote {
+    font-size: 1rem;
+  }
+  
+  .author {
+    font-size: 1.5rem;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  
+  .quote {
+    position: absolute;
+    top: 15%;
+    font-size: 2rem;
+  }
+  
+  .author {
+    font-size: 2.5rem;
+  }
+  
 }
