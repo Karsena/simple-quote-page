@@ -150,11 +150,11 @@ link of each child item
 @media (min-width: 320px) {
   
   .quote {
-    font-size: 0.75rem;
+    font-size: 1.75rem;
   }
   
   .author {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   
 }
