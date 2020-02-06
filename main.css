@@ -86,15 +86,6 @@ body {
     margin-right: 10px;
 }
 
-/* Change background color and font color
-of parent items when mouse hover */
-#navigation li:hover a,
-#navigation li a:hover
-{
-    background: #999;
-    color: #fff;
-}
-
 /*
 Apply to group of Child Items
 Each Child Item will be invisible by default

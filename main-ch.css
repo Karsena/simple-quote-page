@@ -42,6 +42,101 @@ body {
   width: 90%;
 }
 
+/* Navigation */
+#navigation {
+    list-style: none;
+    font-family: "Century Gothic", Verdana, Arial, Sans-Serif;
+    margin: 0;
+    padding: 0.2em;
+    font-size: 1.15em;
+    background-color: #0A4D72;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.languages {
+  color: #AECDDF;
+  padding: 0.25rem;
+}
+
+/* Add a color to the active/current link */
+.active {
+  background-color: #1784AB;
+}
+
+/* CSS for each Parent Item */
+#navigation li
+{
+    clear: both;
+    height: 1.5em;
+}
+
+#navigation li a
+{
+    float: left;
+    display: block;
+    padding: 0.2rem;
+    text-decoration: none;
+    color: floralwhite;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+/*
+Apply to group of Child Items
+Each Child Item will be invisible by default
+*/
+#navigation ul {display: none;}
+
+/* Each Child Item will be visible if mouse hover */
+#navigation li:hover ul {display: block;}
+
+#navigation ul
+{
+    list-style: none;
+    float: left;
+    margin: 0.15rem;
+    padding: 0.25rem 0.25rem;
+}
+
+#navigation ul li
+{
+    float: left;
+    clear: none;
+    margin: 0.15rem;
+    padding: 0.25rem;
+    width: auto;
+    height: auto;
+    color: #AECDDF;
+}
+
+/*
+Reset and re style
+link of each child item
+*/
+#navigation li:hover ul li a,
+#navigation ul li a
+{
+    display: inline;
+    padding: 0.1rem 0.2rem 0.1rem 0.1rem;
+    float: none;
+    text-transform: lowercase;
+    color: #AECDDF;
+    background: none;
+}
+
+#navigation li:hover ul li a:hover,
+#navigation ul li a:hover
+{
+    background: none;
+    color: #000;
+}
+
+
 /* Media Rules for Mobile Devices and Notebooks */
 
 @media (min-width: 320px) {
