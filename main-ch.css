@@ -59,6 +59,7 @@ body {
 .languages {
   color: #AECDDF;
   padding: 0.25rem;
+  font-family: 'MingLiU', serif;
 }
 
 /* Add a color to the active/current link */
